@@ -16,7 +16,8 @@ func RunServer() {
 	r.Use(cors.New(cors.Config{
 		AllowOrigins: []string{
 			"http://localhost:5173",              // local frontend
-			"https://frontend-eqtg.onrender.com", // deployed frontend
+			"https://frontend-8pgp.onrender.com", // deployed frontend
+			"https://apigateway23-nlzl.onrender.com",
 		}, // Allow requests from your frontend
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}, // Allowed HTTP methods
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"}, // Allowed headers

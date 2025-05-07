@@ -7,7 +7,7 @@ services:
     startCommand: ./api
     envVars:
       - key: API_URL
-        value: "https://apigateway23.onrender.com"
+        value: "https://apigateway23-nlzl.onrender.com"
 
   - name: aiservice23
     type: web
@@ -17,7 +17,7 @@ services:
     startCommand: ./aiservice
     envVars:
       - key: AI_URL
-        value: "https://aiservice23.onrender.com"
+        value: "https://aiservice23-dqlk.onrender.com"
 
   - name: frontend
     type: web
@@ -27,6 +27,6 @@ services:
     startCommand: cd webs && npm install -g serve && serve -s dist
     envVars:
       - key: VITE_API_URL
-        value: "https://apigateway23.onrender.com"
+        value: "https://apigateway23-nlzl.onrender.com"
       - key: VITE_AI_URL
-        value: "https://aiservice23.onrender.com"
+        value: "https://aiservice23-dqlk.onrender.com"
