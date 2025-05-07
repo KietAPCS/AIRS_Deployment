@@ -188,7 +188,14 @@ func ProcessJD(jobName, filePath, TxtPath, JsonPath string) error {
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("parsing server returned error: %v", resp.Status)
+		// Read error response body for more details
+		var errorResponse bytes.Buffer
+		_, err := errorResponse.ReadFrom(resp.Body)
+		if err != nil {
+			return fmt.Errorf("parsing server returned error %v, and failed to read response body: %v", resp.Status, err)
+		}
+		
+		return fmt.Errorf("parsing server returned error %v: %s", resp.Status, errorResponse.String())
 	}
 
 	log.Printf("JD parsed successfully")
