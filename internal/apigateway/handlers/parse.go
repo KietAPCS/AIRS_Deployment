@@ -314,12 +314,9 @@ func ExtractCategoriesFromJDText(jobName, jdFilePath, txtOutput, jsonOutput stri
 	// if URL == "" {
 	// 	URL = "http://localhost:8081" // Default URL for local testing
 	// }
-	URL := "https://aiservice23-dqlk.onrender.com"
-	URL = fmt.Sprintf("%s/ai/jd_criteria", URL)
-	log.Printf("Sending request to: %s", URL)
 
-	// resp, err := http.Post("http://localhost:8081/ai/jd_criteria", "application/json", bytes.NewReader(jsonBody))
-	resp, err := http.Post(URL, "application/json", bytes.NewReader(jsonBody))
+	resp, err := http.Post("https://aiservice23-dqlk.onrender.com/ai/jd_criteria", "application/json", bytes.NewReader(jsonBody))
+	//resp, err := http.Post(URL, "application/json", bytes.NewReader(jsonBody))
 	if err != nil {
 		return fmt.Errorf("HTTP request failed: %w", err)
 	}
