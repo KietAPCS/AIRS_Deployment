@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Implement MIXER logic into 4DIAC platform using C++.",
+    "page": 1,
+    "x": 31.51,
+    "y": 234.8,
+    "width": 269.25,
+    "height": 9.96,
+    "description": "This is a strong area because it directly mentions C++, the primary language required for the job. It also highlights experience with implementing logic into a platform, which is relevant to software engineering.",
+    "type": "strong"
+  },
+  {
+    "text": "Deep knowledge of C, Embedded System, Micro Controller, CAN Communication. Familiarise with Autosar, ASPICE.",
+    "page": 1,
+    "x": 55.31,
+    "y": 394.94,
+    "width": 513.56,
+    "height": 9.96,
+    "description": "This is a strong area as it demonstrates experience related to low-level programming, which is related and potentially useful when dealing with C++ software engineering. It mentions key skills for embedded system software developers, but for this specific C++ software engineer role, these skills might be a bonus.",
+    "type": "strong"
+  },
+  {
+    "text": "Programming Languages",
+    "page": 1,
+    "x": 20.83,
+    "y": 763.08,
+    "width": 123.58,
+    "height": 12.21,
+    "description": "This is a strong area because it explicitly lists C/C++, which is a fundamental requirement of the job. However, it should be placed higher in the CV since it's the most important.",
+    "type": "strong"
+  },
+  {
+    "text": "BOSCH",
+    "page": 1,
+    "x": 20.83,
+    "y": 282.36,
+    "width": 38.17,
+    "height": 10.91,
+    "description": "This is a strong area because it indicates relevant industry experience. Working for BOSCH as an Embedded System Software Developer provides a level of understanding and professionalism that are assets of the candidate.",
+    "type": "strong"
+  },
+  {
+    "text": "Thesis: Camera and LiDAR Calibration Transformer",
+    "page": 1,
+    "x": 31.51,
+    "y": 539.64,
+    "width": 235.16,
+    "height": 9.96,
+    "description": "This project shows the ability to work on complex projects. While not directly related to the C++ job description, it shows aptitude in development and potentially AI/ML.",
+    "type": "strong"
+  },
+  {
+    "text": "System Developer",
+    "page": 1,
+    "x": 17.01,
+    "y": 37.8,
+    "width": 105.26,
+    "height": 14.35,
+    "description": "This is a weak title because it is too generic. It doesn't provide enough information about the candidate's specific skills and experience. This section should clearly state the candidate's current or desired role, preferably 'Software Engineer'.",
+    "type": "weak"
+  },
+  {
+    "text": "A software engineer with a Master’s degree from Aalto University and three years of experience in the automotive",
+    "page": 1,
+    "x": 17.01,
+    "y": 102.03,
+    "width": 542.28,
+    "height": 10.91,
+    "description": "This is a weak summary. While it mentions being a software engineer, it quickly focuses on the automotive sector and machine learning which are irrelevant given the context of the C++ job description. It needs to be re-written to emphasize the skills that apply to the given role, such as experience with C++, software design, and problem-solving.",
+    "type": "weak"
+  },
+  {
+    "text": "Implement communication between ECUs using Autosar and C language. Test developed software by using official test",
+    "page": 1,
+    "x": 55.31,
+    "y": 329.18,
+    "width": 513.49,
+    "height": 9.96,
+    "description": "While C is similar to C++, the job asks for C++. The candidate could better highlight their C++ skills. Also, the statement about testing needs to be more specific about the testing frameworks or tools they used, and the types of tests they performed to ensure quality. It's a little generic.",
+    "type": "weak"
+  },
+  {
+    "text": "Tools and Frameworks",
+    "page": 1,
+    "x": 20.83,
+    "y": 780.53,
+    "width": 112.46,
+    "height": 12.21,
+    "description": "This section lacks depth and clarity. While it mentions some tools, it doesn't specify their proficiency level or how they used these tools in their projects. For example, mentioning experience with debugging tools or specific libraries used with C++ would be valuable.",
+    "type": "weak"
+  },
+  {
+    "text": "Projects",
+    "page": 2,
+    "x": 17.01,
+    "y": 13.18,
+    "width": 59.11,
+    "height": 11.96,
+    "description": "The project descriptions could be enhanced. They describe *what* they did, but not *how* or *why*. A good project section would include quantifiable results, specific challenges they overcame, and the technologies they used in detail, particularly highlighting the use of C++.  Without this, the projects are just a list of things they worked on.",
+    "type": "weak"
+  }
+]

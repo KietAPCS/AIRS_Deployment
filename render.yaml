@@ -1,0 +1,32 @@
+services:
+  - name: apigateway23
+    type: web
+    env: go
+    plan: free
+    buildCommand: go build -o api ./cmd/api
+    startCommand: ./api
+    envVars:
+      - key: API_URL
+        value: "https://apigateway23.onrender.com"
+
+  - name: aiservice23
+    type: web
+    env: go
+    plan: free
+    buildCommand: go build -o aiservice ./cmd/aiservice
+    startCommand: ./aiservice
+    envVars:
+      - key: AI_URL
+        value: "https://aiservice23.onrender.com"
+
+  - name: frontend
+    type: web
+    env: node
+    plan: free
+    buildCommand: cd webs && npm install && npm run build
+    startCommand: cd webs && npm install -g serve && serve -s dist
+    envVars:
+      - key: VITE_API_URL
+        value: "https://apigateway23.onrender.com"
+      - key: VITE_AI_URL
+        value: "https://aiservice23.onrender.com"

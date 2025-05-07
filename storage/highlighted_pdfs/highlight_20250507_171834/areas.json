@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Implement MIXER logic into 4DIAC platform using C++.",
+    "page": 1,
+    "x": 31,
+    "y": 234,
+    "width": 269,
+    "height": 10,
+    "description": "This is a strong point as it directly mentions C++, which is the primary requirement for the job. It also indicates experience with a specific platform (4DIAC) which could be relevant.",
+    "type": "strong"
+  },
+  {
+    "text": "Deep knowledge of C, Embedded System, Micro Controller, CAN Communication. Familiarise with Autosar, ASPICE.",
+    "page": 1,
+    "x": 55,
+    "y": 394,
+    "width": 514,
+    "height": 10,
+    "description": "This area highlights C skills, and embedded systems which are relevant to a software engineer role, especially if it involves embedded systems development. The mention of Autosar and ASPICE is also beneficial if the role involves automotive software development.",
+    "type": "strong"
+  },
+  {
+    "text": "Programming Languages",
+    "page": 1,
+    "x": 20,
+    "y": 763,
+    "width": 123,
+    "height": 13,
+    "description": "This area highlights the programming languages the candidate is familiar with. The included C/C++ matches the job description.",
+    "type": "strong"
+  },
+  {
+    "text": "A software engineer with a Master’s degree from Aalto University and three years of experience in the automotive",
+    "page": 1,
+    "x": 17,
+    "y": 102,
+    "width": 542,
+    "height": 11,
+    "description": "This is a strong opening statement. It clearly states the candidate's profession, educational background, and relevant industry experience (automotive).",
+    "type": "strong"
+  },
+  {
+    "text": "Implement communication between ECUs using Autosar and C language. Test developed software by using official test",
+    "page": 1,
+    "x": 55,
+    "y": 329,
+    "width": 513,
+    "height": 10,
+    "description": "Experience with C and Autosar and experience in testing is a strong point. This is very relevant to embedded software engineering in automotive.",
+    "type": "strong"
+  },
+  {
+    "text": "System Developer",
+    "page": 1,
+    "x": 17,
+    "y": 37,
+    "width": 106,
+    "height": 15,
+    "description": "This job title is generic. While it suggests development experience, it doesn't provide specific information about the type of systems or software the candidate has worked on. Could be improved by more precisely naming it, e.g. Embedded System Software Developer",
+    "type": "weak"
+  },
+  {
+    "text": "Camera and LiDAR Calibration Transformer",
+    "page": 2,
+    "x": 20,
+    "y": 35,
+    "width": 216,
+    "height": 11,
+    "description": "This project is relevant to autonomous systems but does not directly showcase C++ skills (though it could be implied). To improve, the candidate could explicitly state if C++ was used in this project and, if so, elaborate on the specific C++ aspects of the project. Also, it is more relevant to a researcher than a software engineer position.",
+    "type": "weak"
+  },
+  {
+    "text": "Teamwork, Active Listening, Negotiation, Time management, Prioritizing, Problem Solving, Analysing, Mentoring.",
+    "page": 1,
+    "x": 55,
+    "y": 408,
+    "width": 503,
+    "height": 10,
+    "description": "This is a list of soft skills, which are valuable, but it would be stronger if the candidate provided specific examples of how they demonstrated these skills in their previous roles. Instead of just listing the skills, give an example of each in the STAR format.",
+    "type": "weak"
+  },
+  {
+    "text": "Tools and Frameworks",
+    "page": 1,
+    "x": 20,
+    "y": 780,
+    "width": 113,
+    "height": 13,
+    "description": "The list of tools is good but generic. It could be more powerful by specifying how these tools were used in specific projects or tasks. More details about the projects that used these tools would be beneficial.",
+    "type": "weak"
+  },
+  {
+    "text": "Main Course: 3D Sensing and Sensor Fusion, Image and Video Processing, Advance Deep Network Development, Introduc-",
+    "page": 1,
+    "x": 31,
+    "y": 515,
+    "width": 537,
+    "height": 10,
+    "description": "This highlights relevant coursework for autonomous systems but doesn't necessarily emphasize C++. The candidate could emphasize specific projects within these courses where they used C++ to demonstrate their skills.",
+    "type": "weak"
+  }
+]
