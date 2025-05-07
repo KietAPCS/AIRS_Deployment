@@ -180,9 +180,8 @@ func ProcessJD(jobName, filePath, TxtPath, JsonPath string) error {
 	// if URL == "" {
 	// 	URL = "http://localhost:8080" // Default URL for local testing
 	// }
-	URL := "https://apigateway23-nlzl.onrender.com"
-	// resp, err := http.Post("http://localhost:8085/parse/jd", "application/json", bytes.NewBuffer(reqBody))
-	resp, err := http.Post(fmt.Sprintf("%s/parse/jd", URL), "application/json", bytes.NewBuffer(reqBody))
+	resp, err := http.Post("https://apigateway23-nlzl.onrender.com/parse/jd", "application/json", bytes.NewBuffer(reqBody))
+	//resp, err := http.Post(fmt.Sprintf("%s/parse/jd", URL), "application/json", bytes.NewBuffer(reqBody))
 	if err != nil {
 		return fmt.Errorf("failed to call parsing server: %v", err)
 	}
