@@ -72,7 +72,7 @@ const IPBox = ({ setLoading }: { setLoading: (loading: boolean) => void; }) => {
       }
   
       // Send the form data to the backend
-      const API_URL = "https://apigateway23.onrender.com";
+      const API_URL = "https://apigateway23-nlzl.onrender.com";
       // const API_URL = "http://localhost:8080";
       console.log("Submitting job description to:", API_URL);
     
@@ -146,7 +146,7 @@ const IPBox = ({ setLoading }: { setLoading: (loading: boolean) => void; }) => {
     setSubmitCvClicked(true); // Set the submit button clicked state
     try {
       setRankLoading(true); // Set loading state
-      const API_URL = "https://apigateway23.onrender.com";
+      const API_URL = "https://apigateway23-nlzl.onrender.com";
       // const API_URL = "http://localhost:8080"; // Use localhost for local testing
       // console.log("import.meta.env =", import.meta.env);
       // console.log("API_URL =", import.meta.env.VITE_API_URL);

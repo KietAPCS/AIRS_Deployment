@@ -28,7 +28,7 @@ const Display = ({ rank, name, score, experience, authenticity, companies, evalP
         eval_id: evalId, // Use evalId for the request
       };
 
-      const AI_URL = "https://aiservice23.onrender.com"; // Use environment variable or default URL
+      const AI_URL = "https://aiservice23-dqlk.onrender.com"; // Use environment variable or default URL
       // const AI_URL = "http://localhost:8081";
       // const initResponse = await fetch("http://localhost:8081/ai/chatbot/init", {
       //   method: "POST",
@@ -55,7 +55,7 @@ const Display = ({ rank, name, score, experience, authenticity, companies, evalP
         //   headers: { "Content-Type": "application/json" },
         //   body: JSON.stringify(hlCVRequestBody),
         // });
-        const API_URL = "https://apigateway23.onrender.com"; // Use environment variable or default URL
+        const API_URL = "https://apigateway23-nlzl.onrender.com"; // Use environment variable or default URL
         // const API_URL = "http://localhost:8080";
         const hlCVResponse = await fetch(`${API_URL}/getHlCV`, {
           method: "POST",
